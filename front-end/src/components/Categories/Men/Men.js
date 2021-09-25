@@ -77,7 +77,7 @@ color :  #020236;
 `
 export const Paragraphe = styled.p`
 font-family: 'Open Sans', sans-serif;
-margin: 30px 35px;
+margin: 20px 35px 30px;
 font-weight: 550;
 font-size: 0.9rem;
 line-height: 200%;
@@ -106,6 +106,15 @@ margin-top:40px;
 export const Footer = styled.div`
 margin-top:40px;
 `;
+
+export const Span = styled.h3`
+font-family: 'Open Sans', sans-serif;
+color :  #020236; 
+text-align: justify;
+margin-bottom:30px;
+margin: 50px  35px 0 35px;
+font-size: 1.1em;
+`
 
 
 function Man() { 
@@ -148,7 +157,7 @@ function Man() {
                                                             Here you can find comfortable dress shoes for men or our collection of comfortable sneakers for men.
                                                             Most of our comfort shoes also have removable insoles that can be easily replaced with your own orthopaedic insoles.
                                                             </Paragraphe> <hr/>
-                                                             
+                                                            
                                                             <SectionCard>
                                                             {
                                                                                 articles.filter(article=>article.category ==="man" && article.name.toLowerCase().includes(searchArticle.toLowerCase())).map(article=>
@@ -162,8 +171,8 @@ function Man() {
                                                             
                                                             <Link to = '/Categories/Women'> <Button> {'1/ - - >'} </Button> </Link>
                                                             <Footer>
+                                                            <Span>WIDE FEET, HALLUX VALGUS, DIABETIC FOOT OR TOE CLAWS, A WIDE CHOICE OF COMFORT SHOES FOR YOU ! </Span>
                                                             <Paragraphe>
-                                                            <h3>WIDE FEET, HALLUX VALGUS, DIABETIC FOOT OR TOE CLAWS, A WIDE CHOICE OF COMFORT SHOES FOR YOU ! </h3>
                                                             You will be able to find the best <strong>of comfort shoes </strong> in different categories classified by genre 
                                                             or type of shoes. You will thus find our collection of comfort shoes for women or men as well as 
                                                             our range of orthopedic shoes, slippers or safety shoes adapted to each type of pathology.

@@ -197,7 +197,7 @@ export default function ContactUS() {
                                                                                 <a href='http://facebook.com'>
                                                                                 <Icon src= {facebook} alt = 'facebook'/>
                                                                                 </a>
-                                                                                <a href='http://linkidin.com'>
+                                                                                <a href='http://www.linkedin.com/in/khawla-guesmi-28442b189'>
                                                                                 <Icon src= {linkidin} alt = 'linked In'/>
                                                                                 </a>
                                                                                 <a href='http://instagram.com'>

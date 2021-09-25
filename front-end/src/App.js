@@ -22,7 +22,7 @@ import AdminContactUs from './components/AdminPage/ContactUs/AdminContactUs'
 import AdminUsers from './components/AdminPage/Users/AdminUsers'
 import AdminDashboard from './components/AdminPage/Admin/AdminDashboard'
 import UpdateArticle from './components/AdminPage/Articles/UpdateArticle';
-import Pathologies from './components/Paathologies/Pathologies'
+import Pathologies from './components/Pathologies/Pathologies'
 
 function App() {
   const dispatch = useDispatch()
@@ -83,7 +83,7 @@ function App() {
       <AdminUsers/>
       </Route>   
 
-            <Route path= '/adminAppointment'>
+      <Route path= '/adminAppointment'>
       <AdminAppointment/>
       </Route>
 
@@ -99,11 +99,9 @@ function App() {
         <UpdateArticle/>
       </Route>
 
-
       <Route path='/*'>
         <ErrorPage/>
       </Route>
-
 
       </Switch>
       <ContactUS/>

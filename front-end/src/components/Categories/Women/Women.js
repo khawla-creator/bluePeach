@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import Banniere from '../../Home/Banniere';
 import search from '../../assets/assetesCategories/loupe.svg'
-import {Search,ButtonSearch,Input,IconeSearch,Main,SectionLeft,SectionRight,Title,SectionCard,Paragraphe,Footer,Button}from '../Men/Men'
+import {Search,ButtonSearch,Input,IconeSearch,Main,SectionLeft,SectionRight,Title,SectionCard,Paragraphe,Footer,Button,Span}from '../Men/Men'
 import Card from '../CardCatgorie/Card';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
@@ -63,8 +63,8 @@ function Woman() {
                                                             
                                                             <Link to = '/Categories/Insoles'><Button> {'2/ - - >'} </Button>  </Link>
                                                             <Footer>
+                                                            <Span style = {{fontWeight:'bold'}} > WIDE FEET, HALLUX VALGUS, DIABETIC FOOT OR TOE CLAWS, A WIDE CHOICE OF COMFORT SHOES FOR YOU ! </Span>
                                                             <Paragraphe>
-                                                            <h3>WIDE FEET, HALLUX VALGUS, DIABETIC FOOT OR TOE CLAWS, A WIDE CHOICE OF COMFORT SHOES FOR YOU ! </h3>
                                                             You will be able to find the best <strong>of comfort shoes </strong> in different categories classified by genre 
                                                             or type of shoes. You will thus find our collection of comfort shoes for women or men as well as 
                                                             our range of orthopedic shoes, slippers or safety shoes adapted to each type of pathology.

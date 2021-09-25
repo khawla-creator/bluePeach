@@ -201,13 +201,15 @@ const settings = {
                                                             </Services>
                                                             <Services style ={{paddingLeft:'10px'}}>
                                                                     <img src= {SecondService} alt='second service'/>
-                                                                    <DescriptionService>
+                                                                    <div>
                                                                     <TitleService style={{textAlign:'center'}}> A Medical Pedicure </TitleService>
+                                                                    <DescriptionService>
                                                                     A medical pedicure or a “Medi Pedi” is a luxurious foot treatment performed by a Podiatrist in a safe and sterile environment. 
                                                                     Unlike traditional salon pedicures which focus on making the feet look good, they often neglect the real 
                                                                     foot problems and can sometimes make them worse! Medical pedicures are aimed not just at cleaning up the feet, but examining the nails,
                                                                     skin and foot as a whole to understand why particular issues occur.     
                                                                     </DescriptionService>
+                                                                    </div>
                                                             </Services>
                                                             <Services style ={{paddingLeft:'120px'}}>
                                                                     <div style={{textAlign:'center'}}>

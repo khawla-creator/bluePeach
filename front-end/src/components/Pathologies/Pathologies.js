@@ -8,7 +8,7 @@ import {Link}from 'react-router-dom'
 
 
 
-const DIV = styled.div`
+const Article = styled.div`
 font-family: 'Open Sans', sans-serif;
 margin-left:5%;
 
@@ -82,7 +82,7 @@ function Pathologies(){
                     return (
                                         <div>
                                         <Banniere/>
-                                        <DIV>
+                                        <Article>
                                                             <Title style = {{padding: '40px 0 20px 0'}}>FOOT PATHOLOGIES</Title>
                                                             <H> Table of contents </H>
                                                             <UL>
@@ -173,7 +173,7 @@ function Pathologies(){
                                         
                                         
                                         
-                                        </DIV>
+                                        </Article>
                                         </div>
                     )
 }

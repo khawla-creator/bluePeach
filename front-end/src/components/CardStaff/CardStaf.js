@@ -36,6 +36,9 @@ font-family: 'Open Sans', sans-serif;
 
 `;
 
+const GOMYCODE = 'GOMYCODE'
+
+
 
 
 function CardStaf() {
@@ -57,9 +60,9 @@ function CardStaf() {
                                                             <Card
                                                                                 image={myPhoto}
                                                                                 name="Khawla Guesmi "
-                                                                                text="Junior full stack devlopper java script and passionate about design.
-                                                                                My Blue Peach website is the result of 5 months of training in GOMYCODE.
-                                                                                I did it after a lot of training."
+                                                                                text={`Junior full stack devlopper java script and passionate about design.
+                                                                                My Blue Peach website is the result of 5 months of training in GOMYCODE 
+                                                                                I did it after a lot of training.`}
                                                             />
                                                             <Card
                                                                                 image={faceTow}
