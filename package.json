@@ -1,0 +1,25 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npx nodemon app.js\" \"cd front-end && npm start \""
+  },
+  "author": "khawla",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@mui/material": "^5.0.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
