@@ -36,7 +36,6 @@ font-family: 'Open Sans', sans-serif;
 
 `;
 
-const GOMYCODE = 'GOMYCODE'
 
 
 
