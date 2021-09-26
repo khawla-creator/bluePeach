@@ -12,7 +12,3 @@ const connectDB=async()=>{
 }
 
 module.exports=connectDB;
-
-
-
-// { useNewUrlParser: true,useUnifiedTopology: true ,useCreateIndex:true }

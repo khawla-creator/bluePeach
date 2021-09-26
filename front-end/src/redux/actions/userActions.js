@@ -53,11 +53,9 @@ export const current=()=>async(dispatch)=>{
                                         console.log(res.data)
                                         dispatch({type:CURRENT_USER,payload:res.data})
                                         } catch (error) {
-                                                            console.log(error.response.data)
                                         dispatch({type:FAIL_USER,payload:error.response.data})
-                                        
                                         }
-}
+                    }
 
 
 // logout 
