@@ -40,7 +40,7 @@ function Error({error}) {
                     const [show,setShow]=useState(true)
                     return (
                     <DIV >
-                    <Alert show={show}  classeName="alert">
+                    <Alert show={show}  className="alert">
                     <Warning>
                     <img  src={warning} alt = 'warring' />
                     <span>

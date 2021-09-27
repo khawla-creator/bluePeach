@@ -50,20 +50,21 @@ function SignIn(){
                                         }
                                                             <Banniere/>
                                                             <Title> Already Registred </Title>
-                                                            <Paragraphe>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum,
-                                                            consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</Paragraphe>
+                                                            <Paragraphe>Create an account and have access to the tracking and the history of your orders.
+                                                            Create an account now and benefit from all the services offered on this site.</Paragraphe>
                                                             <Form onSubmit={handleLogin}>
                                                             <Label htmlFor='email' > Email <Requirment> * </Requirment>: </Label>
                                                             <Input type='email' placeholder ='Your Email' name='email' id = 'email' required onChange={handleChange}/>
-                                                            <Label htmlFor='passWord'> Password <Requirment> * </Requirment>: </Label>
+                                                            <Label htmlFor='passWord'> Password <Requirment> * </Requirment>:  </Label> 
                                                             <Input type='password' placeholder ='Your password' name='password' id = 'passWord' required onChange={handleChange}/>
                                                             <div>
                                                             <Button  onSubmit={handleLogin} > Submit</Button>
                                                             </div>
                                                             </Form>
                                                             <SmallParahraphe>
-                                                            tincidunt ut laoreet aliquam erat volutpat. Ut wisi enim a Lorem ipsum dolor .wisi enim a Lorem ipsum <hr/>
+                                                            <p >
+                                                            If you  don't have an account, click here 
+                                                            </p> <hr/>
                                                             <Link to = '/signup' style = {{textDecoration:"none",color:"#020236", fontWeight:"600"}} > Create an Account ? </Link>
                                                             </SmallParahraphe>
                                                             <P>  * :  is required </P>

@@ -124,7 +124,7 @@ inset 2px 19px 21px rgba(0, 0, 0, 0.25);
 }
 `;
 
-export const SmallParahraphe=styled.p `
+export const SmallParahraphe=styled.div `
 text-align:center;
 align-items:center;
 padding:50px 34%;
@@ -215,7 +215,7 @@ function SignUp() {
                                                             <Input type='email' placeholder ='Your Email' name='email' id = 'Email'  required onChange={handleChange} /> {/*changement */}
 
                                                             <Label htmlFor='PassWord'> Password <Requirment> * </Requirment>: </Label>
-                                                            <Input type='password' placeholder ='Your password' name='password' id = 'PassWord' required  onChange={handleChange} /> {/*changement */}
+                                                            <Input type='password' placeholder ='Your password' name='password' id = 'PassWord' required  onChange={handleChange} /> 
 
                                                             <Label htmlFor='RepeatPassWord' > Repeat Your Password <Requirment> * </Requirment>: </Label>
                                                             <Input type='password' placeholder ='repeat your password' name='repeatpassword' id = 'RepeatPassWord' required onChange={handleChange}  />
@@ -224,7 +224,9 @@ function SignUp() {
                                                             </FormTow>
                                                             </Form>
                                                             <SmallParahraphe>
-                                                            If you have an account, sign in with your email address.<hr/>
+                                                            <p>
+                                                            If you have an account, sign in with your email address.
+                                                            </p> <hr/>
                                                             <Link to = '/signin'  style = {{textDecoration:"none",color:"#020236", fontWeight:"600"}}> Already Registred ? </Link>
                                                             </SmallParahraphe>
                                                             <P>  * :  is required </P>
@@ -234,7 +236,3 @@ function SignUp() {
 
 export default SignUp;
 
-
-
-//{/* <Label htmlFor='date' > Date Of Birth <Requirment> * </Requirment>: </Label> */}
-//{/* <Input type='date' placeholder ='Your Date Of Birth' name='dateofbirth' id = 'date' onChange={handleChange} /> */}

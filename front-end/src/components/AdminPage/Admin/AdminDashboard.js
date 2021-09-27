@@ -13,7 +13,7 @@ import { getMessages } from '../../../redux/actions/messagesActions';
 
 
 
-const Dashbord = styled.div `
+const Dashbord = styled.div`
 font-family: 'Heebo', sans-serif;
 display:flex;
 justify-content:space-around; 
@@ -59,8 +59,6 @@ a{
                     text-decoration:none;
                     color:#ffffff;
 }
-
-
 `
 
 function AdminDashboard (){

@@ -20,23 +20,30 @@ function Insoles() {
                                                             <Main>
                                                             <SectionLeft>
                                                             <h3> GENDER </h3>
+                                                            <p>
                                                             Men <br/>
-                                                            Women <br/>
-                                                            Insolas <hr/>
+                                                            Woman <br/>
+                                                            Insolas </p>
+                                                            <hr/>
                                                             <h3> COLORS </h3>
-                                                            ⬛⬜🟦🟫  <hr/>
+                                                            ⬛⬜🟦🟫  🟥<hr/>
                                                             <h3> PATHOLOGIY </h3>
+                                                            <p>
                                                             Problem Feet <br/>
                                                             Wide Width <br/>
                                                             Bunino <br/>
                                                             Wide Toe Box <br/>
                                                             Swollen Feet <br/>
                                                             POST-OP <br/>
+                                                            </p>
                                                             Diabetic<hr/>
                                                             <h3> FOOT WIDTH </h3>
+                                                            <p>
                                                             Standard <br/>
                                                             Wide <br/>
-                                                            Extra-Wide<hr/>
+                                                            Extra-Wide
+                                                            </p>
+                                                            <hr/> 
                                                             </SectionLeft>
                                                             <SectionRight>
                                                             <Title style = {{padding: '40px 0 20px 0'}}>  ORTHOPEDIC INSOLES ADAPTED TO YOUR SHOES </Title>
